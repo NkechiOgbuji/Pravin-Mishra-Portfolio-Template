@@ -1120,16 +1120,20 @@ section {
 .footer-bottom {
   border-top: 1px solid #222;
   padding-top: 20px;
+  padding-bottom: 10px;
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 10px;
-  color: #888;
+  color:#bfbfbf;
   font-size: 14px;
+  line-height: 1.6;
 }
 
 .footer-bottom span {
   color: #facc15;
+  font-weight: 600;
 }
 
 /* Responsive */
@@ -1140,6 +1144,8 @@ section {
 
   .footer-bottom {
     flex-direction: column;
-    text-align: center;
+    text-align: center; 
+    gap: 8px;
+
   }
 }
